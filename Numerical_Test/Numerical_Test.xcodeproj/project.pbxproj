@@ -1,0 +1,294 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FC8458711AEC9D78006FFDC6 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FC8458701AEC9D78006FFDC6 /* main.cpp */; };
+		FC84587B1AEC9DAF006FFDC6 /* MAT.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FC8458771AEC9DAF006FFDC6 /* MAT.cpp */; };
+		FC84587C1AEC9DAF006FFDC6 /* VEC.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FC8458791AEC9DAF006FFDC6 /* VEC.cpp */; };
+		FC9BA71E1B1C46BD0097B082 /* Complex.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FC9BA71C1B1C46BD0097B082 /* Complex.cpp */; };
+		FC9BA7211B1C7B2D0097B082 /* Polynomial.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FC9BA71F1B1C7B2D0097B082 /* Polynomial.cpp */; };
+		FC9BA7241B1CB7DD0097B082 /* NonLinearSystemSolution.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FC9BA7221B1CB7DD0097B082 /* NonLinearSystemSolution.cpp */; };
+		FC9BA7271B1E15F40097B082 /* CircuitConfiguration.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FC9BA7251B1E15F40097B082 /* CircuitConfiguration.cpp */; };
+		FC9BA72A1B1E18770097B082 /* Circuit.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FC9BA7281B1E18770097B082 /* Circuit.cpp */; };
+		FC9BA72D1B2719D60097B082 /* nonlinearCircuit.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FC9BA72B1B2719D60097B082 /* nonlinearCircuit.cpp */; };
+		FC9BA7301B271AD70097B082 /* TempCircuit.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FC9BA72E1B271AD70097B082 /* TempCircuit.cpp */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		FC84586B1AEC9D78006FFDC6 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		FC84586D1AEC9D78006FFDC6 /* Numerical_Test */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Numerical_Test; sourceTree = BUILT_PRODUCTS_DIR; };
+		FC8458701AEC9D78006FFDC6 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		FC8458771AEC9DAF006FFDC6 /* MAT.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = MAT.cpp; sourceTree = "<group>"; };
+		FC8458781AEC9DAF006FFDC6 /* MAT.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MAT.h; sourceTree = "<group>"; };
+		FC8458791AEC9DAF006FFDC6 /* VEC.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = VEC.cpp; sourceTree = "<group>"; };
+		FC84587A1AEC9DAF006FFDC6 /* VEC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VEC.h; sourceTree = "<group>"; };
+		FC9BA71C1B1C46BD0097B082 /* Complex.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Complex.cpp; sourceTree = "<group>"; };
+		FC9BA71D1B1C46BD0097B082 /* Complex.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Complex.h; sourceTree = "<group>"; };
+		FC9BA71F1B1C7B2D0097B082 /* Polynomial.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Polynomial.cpp; sourceTree = "<group>"; };
+		FC9BA7201B1C7B2D0097B082 /* Polynomial.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Polynomial.h; sourceTree = "<group>"; };
+		FC9BA7221B1CB7DD0097B082 /* NonLinearSystemSolution.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = NonLinearSystemSolution.cpp; sourceTree = "<group>"; };
+		FC9BA7231B1CB7DD0097B082 /* NonLinearSystemSolution.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NonLinearSystemSolution.h; sourceTree = "<group>"; };
+		FC9BA7251B1E15F40097B082 /* CircuitConfiguration.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = CircuitConfiguration.cpp; sourceTree = "<group>"; };
+		FC9BA7261B1E15F40097B082 /* CircuitConfiguration.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CircuitConfiguration.h; sourceTree = "<group>"; };
+		FC9BA7281B1E18770097B082 /* Circuit.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Circuit.cpp; sourceTree = "<group>"; };
+		FC9BA7291B1E18770097B082 /* Circuit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Circuit.h; sourceTree = "<group>"; };
+		FC9BA72B1B2719D60097B082 /* nonlinearCircuit.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = nonlinearCircuit.cpp; sourceTree = "<group>"; };
+		FC9BA72C1B2719D60097B082 /* nonlinearCircuit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = nonlinearCircuit.h; sourceTree = "<group>"; };
+		FC9BA72E1B271AD70097B082 /* TempCircuit.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = TempCircuit.cpp; sourceTree = "<group>"; };
+		FC9BA72F1B271AD70097B082 /* TempCircuit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TempCircuit.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FC84586A1AEC9D78006FFDC6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FC8458641AEC9D78006FFDC6 = {
+			isa = PBXGroup;
+			children = (
+				FC84586F1AEC9D78006FFDC6 /* Numerical_Test */,
+				FC84586E1AEC9D78006FFDC6 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FC84586E1AEC9D78006FFDC6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FC84586D1AEC9D78006FFDC6 /* Numerical_Test */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FC84586F1AEC9D78006FFDC6 /* Numerical_Test */ = {
+			isa = PBXGroup;
+			children = (
+				FC9BA71C1B1C46BD0097B082 /* Complex.cpp */,
+				FC9BA71D1B1C46BD0097B082 /* Complex.h */,
+				FC8458781AEC9DAF006FFDC6 /* MAT.h */,
+				FC8458791AEC9DAF006FFDC6 /* VEC.cpp */,
+				FC84587A1AEC9DAF006FFDC6 /* VEC.h */,
+				FC8458701AEC9D78006FFDC6 /* main.cpp */,
+				FC8458771AEC9DAF006FFDC6 /* MAT.cpp */,
+				FC9BA71F1B1C7B2D0097B082 /* Polynomial.cpp */,
+				FC9BA7201B1C7B2D0097B082 /* Polynomial.h */,
+				FC9BA7221B1CB7DD0097B082 /* NonLinearSystemSolution.cpp */,
+				FC9BA7231B1CB7DD0097B082 /* NonLinearSystemSolution.h */,
+				FC9BA7251B1E15F40097B082 /* CircuitConfiguration.cpp */,
+				FC9BA7261B1E15F40097B082 /* CircuitConfiguration.h */,
+				FC9BA7281B1E18770097B082 /* Circuit.cpp */,
+				FC9BA7291B1E18770097B082 /* Circuit.h */,
+				FC9BA72B1B2719D60097B082 /* nonlinearCircuit.cpp */,
+				FC9BA72C1B2719D60097B082 /* nonlinearCircuit.h */,
+				FC9BA72E1B271AD70097B082 /* TempCircuit.cpp */,
+				FC9BA72F1B271AD70097B082 /* TempCircuit.h */,
+			);
+			path = Numerical_Test;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FC84586C1AEC9D78006FFDC6 /* Numerical_Test */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FC8458741AEC9D78006FFDC6 /* Build configuration list for PBXNativeTarget "Numerical_Test" */;
+			buildPhases = (
+				FC8458691AEC9D78006FFDC6 /* Sources */,
+				FC84586A1AEC9D78006FFDC6 /* Frameworks */,
+				FC84586B1AEC9D78006FFDC6 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Numerical_Test;
+			productName = Numerical_Test;
+			productReference = FC84586D1AEC9D78006FFDC6 /* Numerical_Test */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FC8458651AEC9D78006FFDC6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0620;
+				ORGANIZATIONNAME = jeffrey_MAC;
+				TargetAttributes = {
+					FC84586C1AEC9D78006FFDC6 = {
+						CreatedOnToolsVersion = 6.2;
+					};
+				};
+			};
+			buildConfigurationList = FC8458681AEC9D78006FFDC6 /* Build configuration list for PBXProject "Numerical_Test" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = FC8458641AEC9D78006FFDC6;
+			productRefGroup = FC84586E1AEC9D78006FFDC6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FC84586C1AEC9D78006FFDC6 /* Numerical_Test */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FC8458691AEC9D78006FFDC6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FC9BA71E1B1C46BD0097B082 /* Complex.cpp in Sources */,
+				FC9BA7301B271AD70097B082 /* TempCircuit.cpp in Sources */,
+				FC84587C1AEC9DAF006FFDC6 /* VEC.cpp in Sources */,
+				FC84587B1AEC9DAF006FFDC6 /* MAT.cpp in Sources */,
+				FC9BA7211B1C7B2D0097B082 /* Polynomial.cpp in Sources */,
+				FC9BA7271B1E15F40097B082 /* CircuitConfiguration.cpp in Sources */,
+				FC9BA72D1B2719D60097B082 /* nonlinearCircuit.cpp in Sources */,
+				FC9BA7241B1CB7DD0097B082 /* NonLinearSystemSolution.cpp in Sources */,
+				FC8458711AEC9D78006FFDC6 /* main.cpp in Sources */,
+				FC9BA72A1B1E18770097B082 /* Circuit.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		FC8458721AEC9D78006FFDC6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		FC8458731AEC9D78006FFDC6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		FC8458751AEC9D78006FFDC6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		FC8458761AEC9D78006FFDC6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FC8458681AEC9D78006FFDC6 /* Build configuration list for PBXProject "Numerical_Test" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FC8458721AEC9D78006FFDC6 /* Debug */,
+				FC8458731AEC9D78006FFDC6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FC8458741AEC9D78006FFDC6 /* Build configuration list for PBXNativeTarget "Numerical_Test" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FC8458751AEC9D78006FFDC6 /* Debug */,
+				FC8458761AEC9D78006FFDC6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FC8458651AEC9D78006FFDC6 /* Project object */;
+}
